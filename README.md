@@ -1,4 +1,6 @@
-# resume.johnathansattler.com
+# Johnathan Sattler — personal site
+
+Live at **https://jsattlerorg.github.io/johnathan-sattler/**
 
 My personal website: a tiny, phone-style operating system ("SattlerOS") for the web.
 It has a lock screen, a home screen with widgets and swipeable pages, a dock, and apps
@@ -35,5 +37,8 @@ python3 -m http.server 8000
 
 ## Deploy
 
-GitHub Pages serves the repository root. The `CNAME` file points it at `resume.johnathansattler.com`,
-and `.nojekyll` makes Pages serve the files as they are.
+GitHub Pages serves the repository root of `master` at the default address above.
+`.nojekyll` makes Pages serve the files as they are. All asset paths are relative, so the
+site works under the `/johnathan-sattler/` subpath. (`404.html` is the one exception: it uses
+absolute `/johnathan-sattler/...` links because it's served for any missing path.)
+To use a custom domain later, add a `CNAME` file and update those two links in `404.html`.

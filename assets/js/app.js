@@ -29,7 +29,10 @@
   const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   const bootTime = Date.now();
   const OS = S.osName || "SattlerOS";
-  const SITE_HOST = location.hostname && location.hostname !== "localhost" ? location.hostname : "johnathansattler.com";
+  // Where the site lives, for display (e.g. "jsattlerorg.github.io/johnathan-sattler").
+  const SITE_HOST = location.hostname && location.hostname !== "localhost"
+    ? (location.host + location.pathname).replace(/\/(index\.html)?$/, "")
+    : "jsattlerorg.github.io/johnathan-sattler";
 
   const syncWindowed = () => root.classList.toggle("windowed", windowedMQ.matches);
   syncWindowed();

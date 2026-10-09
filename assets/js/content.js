@@ -42,7 +42,7 @@ window.SITE = {
 
   // Small key/value rows in the About app. Empty values are hidden.
   facts: [
-    { label: "Website", value: "johnathansattler.com" },
+    { label: "Website", value: "jsattlerorg.github.io/johnathan-sattler", url: "https://jsattlerorg.github.io/johnathan-sattler/" },
     { label: "GitHub", value: "@JohnathanSattler", url: "https://github.com/JohnathanSattler" },
     // TODO: { label: "Focus", value: "Web, design & systems" },
   ],
@@ -50,7 +50,7 @@ window.SITE = {
   // Projects app (styled like App Store "Today" cards)
   projects: [
     {
-      name: "johnathansattler.com",
+      name: "SattlerOS",
       eyebrow: "This website",
       description:
         "A tiny operating system for the web, built with plain HTML, CSS and JavaScript — no frameworks, no build step — and hosted on GitHub Pages.",
