@@ -1,4 +1,4 @@
-# johnathansattler.com
+# resume.johnathansattler.com
 
 My personal website: a tiny, phone-style operating system ("SattlerOS") for the web.
 It has a lock screen, a home screen with widgets and swipeable pages, a dock, and apps
@@ -35,5 +35,5 @@ python3 -m http.server 8000
 
 ## Deploy
 
-GitHub Pages serves the repository root. The `CNAME` file points it at `johnathansattler.com`,
+GitHub Pages serves the repository root. The `CNAME` file points it at `resume.johnathansattler.com`,
 and `.nojekyll` makes Pages serve the files as they are.
