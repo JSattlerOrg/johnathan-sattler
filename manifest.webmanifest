@@ -1,0 +1,14 @@
+{
+  "name": "Johnathan Sattler",
+  "short_name": "Johnathan",
+  "description": "The personal website of Johnathan Sattler — designed like a tiny operating system.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0b14",
+  "theme_color": "#0b0b14",
+  "icons": [
+    { "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
